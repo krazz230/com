@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Заголовок страницы</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Главная | База-знаний.рф</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 </head>
 <body>
-    <div class="log">
-        <!-- логотипчик какой нибудь -->
-    </div>
-    <div class="yter">
-        <!-- название темы -->
-        Настя лох
-    </div>
-    
-    <div class="ghjk">
-        <!-- картинка лугов и травы -->
-        <img src="lug.jpg" alt="">
-    </div>
-    
-    <div class="tyui">
-        <!-- блокки с текстом -->
-        <div class="tyui1">
-            <div class="bl1">
-                
-            </div>
-        </div>
-        <div class="tyui2">
-            <div class="bl2">
-                
-            </div>
-            <div class="bl3">
-                
-            </div>
-        </div>
-        
-    </div>
+	<div class="topnav" id="myTopnav">
+	  <a href="#home" class="active">Главная</a>
+	  <a href="#news">Новости</a>
+	  <a href="#contact">Игры</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">Программы
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="#">Офисные</a>
+	      <a href="#">Для системы</a>
+	      <a href="#">Развлечения</a>
+	    </div>
+	  </div>
+	  <a href="#about">VK</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
 </body>
 </html>
